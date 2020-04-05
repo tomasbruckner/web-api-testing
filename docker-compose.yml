@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  exampleDb:
+    image: postgres:12.2
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+      POSTGRES_DB: example
+    ports:
+      - "5432:5432"
+  exampleAdminer:
+    image: adminer
+    ports:
+      - 8080:8080

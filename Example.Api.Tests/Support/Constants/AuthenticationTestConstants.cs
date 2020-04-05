@@ -1,0 +1,11 @@
+namespace Example.Api.Tests.Support.Constants
+{
+    public static class AuthenticationTestConstants
+    {
+        public const string AdminJwtToken =
+            "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBRE1JTiIsImV4cCI6MTU4NjEwMDY5NiwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjUwMDEifQ.DJPktpPmfMdj6JoFzEd4XR3MG7UxPLT83bFaaJkHj_48eLC8mZgIlvEBJ1WN16NqXDZYY28MVp6x_s2COS81ZA";
+
+        public const string UserJwtToken =
+            "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVU0VSIiwiZXhwIjoxNTg2MTAwNjk2LCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSJ9.LF6poYYoF4CmG1c-4dhZqdfR5zIltgHIYnHFw-GC52g9dqcuK2Raq7JVg_LclmvWQyJgLLFXo3_1qgPh--wYFA";
+    }
+}
